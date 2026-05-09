@@ -16,4 +16,5 @@
 #  pytorch_distilling.ipynb是基于Jupter的文件，可以直接导入运行。
  
 运行结果如下：
-<img width="1233" height="347" alt="image" src="https://github.com/user-attachments/assets/f91a3c0f-3b7e-4659-bc37-490442beedf4" />
+<img width="1238" height="343" alt="image" src="https://github.com/user-attachments/assets/9fdee793-292b-416a-ab1d-22e34b6e91d4" />
+
