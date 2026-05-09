@@ -201,7 +201,7 @@ for epoch in range(epochs):
         distillation_loss=soft_loss(F.log_softmax(student_preds/temp,dim=1),F.softmax(teacher_preds/temp,dim=1))* (temp ** 2)
         
         #将hard_loss和soft_loss加权求和
-        loss=alpha*distillation_loss+(1-alpha)*alpha*student_loss
+        loss=alpha*distillation_loss+(1-alpha)*student_loss
         
         #方向传播
         optimizer.zero_grad()
